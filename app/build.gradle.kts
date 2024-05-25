@@ -1,6 +1,7 @@
 plugins {
-    alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.flickfinder.android.application.compose)
+    alias(libs.plugins.flickfinder.jvm.ktor)
+    alias(libs.plugins.mapsplatform.secrets.plugin)
 }
 
 android {

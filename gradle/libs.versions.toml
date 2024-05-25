@@ -126,6 +126,7 @@ flickfinder-android-library-compose = { id = "flickfinder.android.library.compos
 flickfinder-android-feature-ui = { id = "flickfinder.android.feature.ui", version = "unspecified" }
 flickfinder-android-room = { id = "flickfinder.android.room", version = "unspecified" }
 flickfinder-jvm-library = { id = "flickfinder.jvm.library", version = "unspecified" }
+flickfinder-jvm-ktor = { id = "flickfinder.jvm.ktor", version = "unspecified" }
 
 [bundles]
 compose = [
@@ -143,4 +144,11 @@ compose-debug = [
 ]
 koin = ["koin-core", "koin-android", "koin-android-workmanager"]
 koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
-
+ktor = [
+    "ktor-client-auth",
+    "ktor-client-cio",
+    "ktor-client-content-negotiation",
+    "ktor-client-core",
+    "ktor-client-logging",
+    "ktor-serialization-kotlinx-json"
+]

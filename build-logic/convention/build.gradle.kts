@@ -42,5 +42,9 @@ gradlePlugin {
             id = "flickfinder.jvm.library"
             implementationClass = "JVMLibraryConventionPlugin"
         }
+        register("JVMKtor") {
+            id = "flickfinder.jvm.ktor"
+            implementationClass = "JVMKtorConventionPlugin"
+        }
     }
 }
