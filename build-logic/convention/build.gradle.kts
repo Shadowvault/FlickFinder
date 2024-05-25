@@ -19,7 +19,7 @@ gradlePlugin {
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidApplicationCompose") {
-            id = "runique.android.application.compose"
+            id = "flickfinder.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
     }
