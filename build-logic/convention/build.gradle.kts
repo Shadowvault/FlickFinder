@@ -22,5 +22,9 @@ gradlePlugin {
             id = "flickfinder.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "flickfinder.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }

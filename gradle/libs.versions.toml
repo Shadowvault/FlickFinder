@@ -121,3 +121,5 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 
 flickfinder-android-application = { id = "flickfinder.android.application", version = "unspecified" }
 flickfinder-android-application-compose = { id = "flickfinder.android.application.compose", version = "unspecified" }
+flickfinder-android-library = { id = "flickfinder.android.library", version = "unspecified" }
+
