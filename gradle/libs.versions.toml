@@ -124,3 +124,20 @@ flickfinder-android-application-compose = { id = "flickfinder.android.applicatio
 flickfinder-android-library = { id = "flickfinder.android.library", version = "unspecified" }
 flickfinder-android-library-compose = { id = "flickfinder.android.library.compose", version = "unspecified" }
 
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-lifecycle-runtime-compose",
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-compose-material3",
+    "androidx-compose-ui",
+    "androidx-compose-ui-graphics",
+    "androidx-compose-ui-tooling-preview",
+]
+compose-debug = [
+    "androidx-compose-ui-tooling",
+    "androidx-compose-ui-test-manifest",
+]
+koin = ["koin-core", "koin-android", "koin-android-workmanager"]
+koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
+
