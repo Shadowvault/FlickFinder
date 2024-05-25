@@ -125,6 +125,7 @@ flickfinder-android-library = { id = "flickfinder.android.library", version = "u
 flickfinder-android-library-compose = { id = "flickfinder.android.library.compose", version = "unspecified" }
 flickfinder-android-feature-ui = { id = "flickfinder.android.feature.ui", version = "unspecified" }
 flickfinder-android-room = { id = "flickfinder.android.room", version = "unspecified" }
+flickfinder-jvm-library = { id = "flickfinder.jvm.library", version = "unspecified" }
 
 [bundles]
 compose = [

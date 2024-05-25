@@ -38,5 +38,9 @@ gradlePlugin {
             id = "flickfinder.android.room"
             implementationClass = "AndroidRoomConventionPlugin"
         }
+        register("JVMLibrary") {
+            id = "flickfinder.jvm.library"
+            implementationClass = "JVMLibraryConventionPlugin"
+        }
     }
 }
