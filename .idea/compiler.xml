@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="Flick_Finder.app" target="17" />
+      <module name="Flick_Finder.build-logic.convention" target="17" />
+      <module name="Flick_Finder.build-logic.convention.main" target="17" />
+      <module name="Flick_Finder.build-logic.convention.test" target="17" />
+      <module name="Flick_Finder.core.data" target="17" />
+      <module name="Flick_Finder.core.database" target="17" />
+      <module name="Flick_Finder.core.presentation.designsystem" target="17" />
+      <module name="Flick_Finder.core.presentation.ui" target="17" />
+      <module name="FlickFinder.app.details.data" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
