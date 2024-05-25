@@ -120,3 +120,4 @@ androidDynamicFeature = { id = "com.android.dynamic-feature", version.ref = "agp
 mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsPlugin" }
 
 flickfinder-android-application = { id = "flickfinder.android.application", version = "unspecified" }
+flickfinder-android-application-compose = { id = "flickfinder.android.application.compose", version = "unspecified" }
