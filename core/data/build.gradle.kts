@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -35,4 +35,7 @@ android {
 dependencies {
 
     implementation(libs.timber)
+
+    implementation(projects.core.domain)
+    implementation(projects.core.database)
 }

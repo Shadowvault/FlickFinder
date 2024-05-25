@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.shadowvault.core.presentation.designsystem"
+    namespace = "com.plcoding.core.presentation.designsystem"
     compileSdk = 34
 
     defaultConfig {
@@ -33,7 +33,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
