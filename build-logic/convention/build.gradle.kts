@@ -30,5 +30,13 @@ gradlePlugin {
             id = "flickfinder.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
+        register("androidFeatureUI") {
+            id = "flickfinder.android.feature.ui"
+            implementationClass = "AndroidFeatureUIConventionPlugin"
+        }
+        register("androidRoom") {
+            id = "flickfinder.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
+        }
     }
 }
