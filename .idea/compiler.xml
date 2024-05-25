@@ -11,6 +11,9 @@
       <module name="Flick_Finder.core.presentation.designsystem" target="17" />
       <module name="Flick_Finder.core.presentation.ui" target="17" />
       <module name="FlickFinder.app.details.data" target="17" />
+      <module name="FlickFinder.convention" target="17" />
+      <module name="FlickFinder.convention.main" target="17" />
+      <module name="FlickFinder.convention.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

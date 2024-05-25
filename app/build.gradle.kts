@@ -82,13 +82,11 @@ dependencies {
     implementation(projects.core.data)
     implementation(projects.core.database)
 
-    implementation(projects.auth.presentation)
-    implementation(projects.auth.domain)
-    implementation(projects.auth.data)
+    implementation(projects.home.presentation)
+    implementation(projects.home.domain)
+    implementation(projects.home.data)
 
-    implementation(projects.run.presentation)
-    implementation(projects.run.domain)
-    implementation(projects.run.data)
-    implementation(projects.run.location)
-    implementation(projects.run.network)
+    implementation(projects.details.presentation)
+    implementation(projects.details.domain)
+    implementation(projects.details.data)
 }

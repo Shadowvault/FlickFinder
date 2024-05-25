@@ -11,5 +11,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FlickFinder"
+rootProject.name = "build-logic"
 include(":convention")
