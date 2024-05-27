@@ -22,6 +22,10 @@ android {
 }
 
 dependencies {
+
+    // Koin
+    implementation(libs.bundles.koin)
+
     // Coil
     implementation(libs.coil.compose)
 
