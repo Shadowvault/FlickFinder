@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.library)
+    alias(libs.plugins.flickfinder.android.library)
     alias(libs.plugins.flickfinder.android.room)
 }
 
@@ -9,5 +9,6 @@ android {
 
 dependencies {
     implementation(libs.org.mongodb.bson)
+
     implementation(projects.core.domain)
 }

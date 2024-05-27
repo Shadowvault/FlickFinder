@@ -1,10 +1,10 @@
-import com.shadowvault.convention.configureKotlinJVM
 import com.shadowvault.convention.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies
 
-class JVMKtorConventionPlugin : Plugin<Project> {
+class JVMKtorConventionPlugin: Plugin<Project> {
+
     override fun apply(target: Project) {
         target.run {
             pluginManager.apply("org.jetbrains.kotlin.plugin.serialization")
