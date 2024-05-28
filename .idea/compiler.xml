@@ -14,6 +14,10 @@
       <module name="FlickFinder.convention" target="17" />
       <module name="FlickFinder.convention.main" target="17" />
       <module name="FlickFinder.convention.test" target="17" />
+      <module name="FlickFinder.details.data" target="17" />
+      <module name="FlickFinder.details.presentation" target="17" />
+      <module name="FlickFinder.home.data" target="17" />
+      <module name="FlickFinder.home.presentation" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

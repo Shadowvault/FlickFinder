@@ -31,14 +31,10 @@
             <option value="$PROJECT_DIR$/core/presentation" />
             <option value="$PROJECT_DIR$/core/presentation/designsystem" />
             <option value="$PROJECT_DIR$/core/presentation/ui" />
-            <option value="$PROJECT_DIR$/details" />
-            <option value="$PROJECT_DIR$/details/data" />
-            <option value="$PROJECT_DIR$/details/domain" />
-            <option value="$PROJECT_DIR$/details/presentation" />
-            <option value="$PROJECT_DIR$/home" />
-            <option value="$PROJECT_DIR$/home/data" />
-            <option value="$PROJECT_DIR$/home/domain" />
-            <option value="$PROJECT_DIR$/home/presentation" />
+            <option value="$PROJECT_DIR$/movies" />
+            <option value="$PROJECT_DIR$/movies/data" />
+            <option value="$PROJECT_DIR$/movies/domain" />
+            <option value="$PROJECT_DIR$/movies/presentation" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

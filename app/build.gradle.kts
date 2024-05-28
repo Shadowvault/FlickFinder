@@ -71,11 +71,8 @@ dependencies {
     implementation(projects.core.data)
     implementation(projects.core.database)
 
-    implementation(projects.home.presentation)
-    implementation(projects.home.domain)
-    implementation(projects.home.data)
+    implementation(projects.movies.presentation)
+    implementation(projects.movies.domain)
+//    implementation(projects.movies.data)
 
-    implementation(projects.details.presentation)
-    implementation(projects.details.domain)
-    implementation(projects.details.data)
 }
