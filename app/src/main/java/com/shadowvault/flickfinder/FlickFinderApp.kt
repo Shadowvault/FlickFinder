@@ -3,6 +3,7 @@ package com.shadowvault.flickfinder
 import android.app.Application
 import com.shadowvault.core.data.di.coreDataModule
 import com.shadowvault.flickfinder.di.appModule
+import com.shadowvault.movies.data.remote.di.remoteMoviesModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -18,8 +19,7 @@ class FlickFinderApp: Application() {
         startKoin {
             androidLogger()
             androidContext(this@FlickFinderApp)
-            appModule
-            coreDataModule
+            modules(appModule, coreDataModule, remoteMoviesModule)
         }
     }
 }

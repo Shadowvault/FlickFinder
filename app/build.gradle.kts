@@ -73,6 +73,6 @@ dependencies {
 
     implementation(projects.movies.presentation)
     implementation(projects.movies.domain)
-//    implementation(projects.movies.data)
+    implementation(projects.movies.data)
 
 }
