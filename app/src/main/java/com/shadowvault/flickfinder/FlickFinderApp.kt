@@ -4,6 +4,7 @@ import android.app.Application
 import com.shadowvault.core.data.di.coreDataModule
 import com.shadowvault.core.database.di.databaseModule
 import com.shadowvault.flickfinder.di.appModule
+import com.shadowvault.flickfinder.di.dispatcherModule
 import com.shadowvault.movies.data.remote.di.remoteMoviesModule
 import com.shadowvault.movies.presentation.screens.di.homeViewModelModule
 import org.koin.android.ext.koin.androidContext
@@ -26,7 +27,8 @@ class FlickFinderApp : Application() {
                 coreDataModule,
                 remoteMoviesModule,
                 homeViewModelModule,
-                databaseModule
+                databaseModule,
+                dispatcherModule
             )
         }
     }
