@@ -24,7 +24,6 @@ class HttpClientFactory {
                     json = Json {
                         ignoreUnknownKeys = true
                         isLenient = true
-                        coerceInputValues = true
                     }
                 )
             }

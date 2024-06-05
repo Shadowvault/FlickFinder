@@ -2,11 +2,12 @@ package com.shadowvault.movies.data.remote.dtos.movies
 
 import com.shadowvault.movies.domain.Movie
 import kotlinx.serialization.Serializable
+import java.text.DecimalFormat
 
 @Serializable
 data class MovieDto(
     val adult: Boolean,
-    val backdrop_path: String,
+    val backdrop_path: String?,
     val genre_ids: List<Int>,
     val id: Int,
     val original_language: String,
@@ -24,13 +25,12 @@ data class MovieDto(
 fun MovieDto.toMovie() : Movie {
     return Movie (
         id = id,
-        backdrop_path = backdrop_path,
         title = title,
-        original_title = original_title,
         poster_path = poster_path,
-        popularity = popularity,
-        vote_average = vote_average,
-        vote_count = vote_count,
+        rating = vote_average.let {
+            val df = DecimalFormat("#.#")
+            df.format(it).toDouble()
+        },
         release_date = release_date
     )
 }
